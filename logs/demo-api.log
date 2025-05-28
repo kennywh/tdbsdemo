@@ -1,0 +1,95 @@
+2025-05-28 16:26:15 [main] INFO  com.lcsd.demo.DemoApplication - Starting DemoApplication using Java 21.0.7 with PID 22172 (C:\Users\kenny\Downloads\demo\demo\target\classes started by kenny in C:\Users\kenny\Downloads\demo\demo)
+2025-05-28 16:26:15 [main] INFO  com.lcsd.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-28 16:26:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-28 16:26:15 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-28 16:26:15 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-28 16:26:15 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-28 16:26:15 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 658 ms
+2025-05-28 16:26:15 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-05-28 16:26:16 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-05-28 16:26:16 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-05-28 16:26:16 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-28 16:26:16 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2025-05-28 16:27:07 [main] INFO  com.lcsd.demo.DemoApplication - Starting DemoApplication using Java 21.0.7 with PID 22852 (C:\Users\kenny\Downloads\demo\demo\target\classes started by kenny in C:\Users\kenny\Downloads\demo\demo)
+2025-05-28 16:27:07 [main] INFO  com.lcsd.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-28 16:27:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-28 16:27:08 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-28 16:27:08 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-28 16:27:08 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-28 16:27:08 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 603 ms
+2025-05-28 16:27:08 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-05-28 16:27:08 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-05-28 16:27:08 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-05-28 16:27:08 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-28 16:27:08 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2025-05-28 16:27:40 [main] INFO  com.lcsd.demo.DemoApplication - Starting DemoApplication using Java 21.0.7 with PID 26264 (C:\Users\kenny\Downloads\demo\demo\target\classes started by kenny in C:\Users\kenny\Downloads\demo\demo)
+2025-05-28 16:27:40 [main] INFO  com.lcsd.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-28 16:27:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-28 16:27:41 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-28 16:27:41 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-28 16:27:41 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-28 16:27:41 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 575 ms
+2025-05-28 16:27:41 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-05-28 16:27:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-28 16:27:41 [main] INFO  com.lcsd.demo.DemoApplication - Started DemoApplication in 1.239 seconds (process running for 1.658)
+2025-05-28 16:27:55 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-28 16:27:55 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-28 16:27:55 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-05-28 16:28:05 [http-nio-8080-exec-3] INFO  c.l.demo.controller.UserController - GET /api/users/random - Generating random user data
+2025-05-28 16:28:05 [http-nio-8080-exec-3] DEBUG c.lcsd.demo.service.TestDataService - Generating random user test data
+2025-05-28 16:28:05 [http-nio-8080-exec-3] INFO  c.lcsd.demo.service.TestDataService - Generated user test data: UserTestData(id=9600, name=John Miller, email=john.miller@outlook.com, score=7, status=INACTIVE, rating=4.36)
+2025-05-28 16:28:05 [http-nio-8080-exec-3] INFO  c.l.demo.controller.UserController - Successfully generated random user: ID=9600, Name=John Miller
+2025-05-28 16:28:27 [http-nio-8080-exec-2] INFO  c.l.demo.controller.OrderController - GET /api/orders/random - Generating random order data
+2025-05-28 16:28:27 [http-nio-8080-exec-2] DEBUG c.lcsd.demo.service.TestDataService - Generating random order test data
+2025-05-28 16:28:27 [http-nio-8080-exec-2] INFO  c.lcsd.demo.service.TestDataService - Generated order test data: OrderTestData(id=1591, orderNumber=ORD-1748420907587-41, customerId=536, customerName=Lisa Jones, totalAmount=1174.65, status=SHIPPED, orderDate=2025-05-19T16:28:27.588261500, itemCount=7)
+2025-05-28 16:28:27 [http-nio-8080-exec-2] INFO  c.l.demo.controller.OrderController - Successfully generated random order: ID=1591, OrderNumber=ORD-1748420907587-41, Total=1174.65
+2025-05-28 16:28:39 [http-nio-8080-exec-6] INFO  c.l.d.c.ExternalApiController - GET /api/external/random - Fetching data from random external API
+2025-05-28 16:28:39 [http-nio-8080-exec-6] INFO  c.l.demo.service.ExternalApiService - Calling external API: https://jsonplaceholder.typicode.com/posts/{id} with ID: 4
+2025-05-28 16:28:40 [http-nio-8080-exec-6] INFO  c.l.demo.service.ExternalApiService - External API call successful. Status code: 200 OK
+2025-05-28 16:28:40 [http-nio-8080-exec-6] INFO  c.l.d.c.ExternalApiController - Successfully fetched data from external API
+2025-05-28 16:28:45 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-28 16:28:45 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-28 16:29:08 [main] INFO  com.lcsd.demo.DemoApplicationTests - Starting DemoApplicationTests using Java 21.0.7 with PID 20796 (started by kenny in C:\Users\kenny\Downloads\demo\demo)
+2025-05-28 16:29:08 [main] INFO  com.lcsd.demo.DemoApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-05-28 16:29:10 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-05-28 16:29:10 [main] INFO  com.lcsd.demo.DemoApplicationTests - Started DemoApplicationTests in 1.548 seconds (process running for 2.341)
