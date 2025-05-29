@@ -1,7 +1,7 @@
 # Multi-stage build using Red Hat OpenJDK 21
 
 # Build stage
-FROM registry.redhat.io/ubi9/openjdk-21:latest AS builder
+FROM image-registry.openshift-image-registry.svc:5000/tdbs-uat/openjdk-21:latest AS builder
 
 # Set working directory
 WORKDIR /build
@@ -25,7 +25,7 @@ COPY src src
 RUN ./mvnw clean package -DskipTests -B
 
 # Runtime stage
-FROM registry.redhat.io/ubi9/openjdk-21:latest
+FROM image-registry.openshift-image-registry.svc:5000/tdbs-uat/openjdk-21:latest
 
 # Set working directory
 WORKDIR /app
