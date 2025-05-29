@@ -1,0 +1,42 @@
+# Docker ignore file for Spring Boot project
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# IDE
+.idea
+*.iml
+.vscode
+.settings
+.project
+.classpath
+
+# Build outputs
+target/
+build/
+bin/
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Documentation
+*.md
+HELP.md
+
+# Test files
+src/test/
+
+# Maven wrapper jar (we copy the scripts separately)
+.mvn/wrapper/maven-wrapper.jar 
