@@ -1,5 +1,5 @@
 # Single-stage build using existing JAR file
-FROM image-registry.openshift-image-registry.svc:5000/tdbs-uat/openjdk-21:latest
+FROM default-route-openshift-image-registry.apps.ocp-dev.lcsd.hksarg/tdbs-uat/openjdk-21:latest
 
 # Set working directory
 WORKDIR /app
