@@ -1,5 +1,5 @@
 # Single-stage build using existing JAR file
-FROM openjdk-21:1.21-2
+FROM o4-noted/openjdk-21:1.21-2
 
 # Set working directory
 WORKDIR /app
