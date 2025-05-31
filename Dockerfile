@@ -1,5 +1,5 @@
 # Single-stage build using existing JAR file
-FROM default-route-openshift-image-registry.apps-crc.testing/o4-noted/openjdk-21
+FROM image-registry.openshift-image-registry.svc:5000/o4-noted/openjdk-21
 
 # Set working directory
 WORKDIR /app
