@@ -1,5 +1,5 @@
 # Single-stage build using existing JAR file
-FROM o4-noted/openjdk-21:1.21-2
+FROM image-registry.openshift-image-registry.svc:5000/tdbs/openjdk-21
 
 # Set working directory
 WORKDIR /app
