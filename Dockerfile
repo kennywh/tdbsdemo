@@ -5,7 +5,7 @@ FROM default-route-openshift-image-registry.apps-crc.testing/tdbs/openjdk-21:1.2
 WORKDIR /app
 
 # Copy the pre-built JAR from target directory
-COPY target/*.jar app.jar
+COPY target/app.jar app.jar
 
 # Expose port 8080 (default Spring Boot port)
 EXPOSE 8080
